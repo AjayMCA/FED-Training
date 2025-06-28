@@ -1,0 +1,20 @@
+h2,p{
+    color: darkgreen;
+    background-color: aqua;
+}
+.intro>p{
+    color: blue;
+    background-color: yellowgreen;
+}
+p.intro{
+    color: violet;
+    background-color: cadetblue;
+}
+#one{
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#one>p{
+    background-color: antiquewhite;
+}
