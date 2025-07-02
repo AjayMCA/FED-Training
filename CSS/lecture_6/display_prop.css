@@ -1,0 +1,32 @@
+h1,h2{
+    /* display: inline; */
+    display: inline-block;
+    border: 2px solid black;
+    background-color: aquamarine;
+    margin: 50px;
+    height: 100px;
+    width: 300px;
+}
+p{
+    display: block;
+    border: 2px solid red;
+    background-color: blueviolet;
+    margin: 50px;
+     height: 100px;
+    width: 300px;
+}
+span{
+    display: block;
+    border: 2px solid violet;
+    background-color: yellowgreen;
+    margin: 50px;
+     height: 100px;
+    width: 300px;
+}
+img{
+    /* display: inline-block; */
+    /* display: none; */
+    visibility: hidden;
+    height: 300px;
+    width: 300px;
+}

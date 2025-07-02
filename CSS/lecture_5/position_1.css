@@ -1,0 +1,11 @@
+.container{
+    border: 2px double black;
+}
+img{
+    margin: 10px;
+}
+.aj_2{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
