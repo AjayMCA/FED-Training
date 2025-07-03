@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position : Sticky</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="position1.css" />
+  </head>
+  <body>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="ban_1.jpeg" alt="Los Angeles" width="100%"/>
+        </div>
+
+        <div class="item">
+          <img src="banner_1.jpg" alt="Chicago" width="100%"/>
+        </div>
+
+        <div class="item">
+          <img src="ban_1.jpeg" alt="New York" width="100%"/>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="menu">
+      <div class="banner">KnovelClasses</div>
+      <div class="menu_bar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">About us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="home" class="home">
+      <h1>Home</h1>
+      <table>
+        <tr>
+          <td>
+            <img src="banner_1.jpg" alt="banner" height="160px" width="150px" />
+          </td>
+          <td>
+            <p>
+              Our vision is to empower computer science students with the
+              knowledge, skills, and confidence needed to thrive in the
+              ever-evolving world of technology. We aim to bridge the gap
+              between academic learning and real-world application by providing
+              high-quality, practical, and concept-based coaching. Our goal is
+              to create a dynamic and inclusive learning environment where
+              students are encouraged to think critically, solve problems
+              creatively, and build a strong foundation in programming, data
+              structures, algorithms, databases, web development, and emerging
+              technologies like AI and cloud computing. We aspire to be a
+              guiding force for students at every level—whether preparing for
+              university exams, technical interviews, competitive exams like
+              GATE, or industry certifications. Through personalized mentorship,
+              hands-on projects, and regular assessments, we strive to nurture
+              curiosity, innovation, and self-learning. Ultimately, our vision
+              is to develop future-ready professionals who are not only
+              technically sound but also ethically responsible and
+              industry-competent. We believe in shaping careers, not just
+              grades, and in making computer science education accessible,
+              engaging, and effective for every aspiring learner. With a strong
+              commitment to excellence, we aim to become the most trusted and
+              result-oriented coaching platform for computer science students.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div id="service" class="service">
+      <h1>Service</h1>
+    </div>
+    <hr />
+    <div id="about" class="about">
+      <h1>Box inside the box</h1>
+      <div class="outer-box">
+        <div class="inner-box">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
