@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contain {
+  display: flex;
+  background-color: rgb(30, 156, 210);
+  justify-content: space-between;
+  padding: 15px 30px;
+  opacity: 0.2;
+}
+.banner {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: start;
+}
+.navbar > ul > li {
+  display: inline-block;
+  color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6px;
+  text-align: end;
+}

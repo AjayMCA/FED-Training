@@ -1,0 +1,14 @@
+div.relative{
+    position: relative;
+    height: 400px;
+    width: 200px;
+    border: 2px double black;
+    margin-top: 50px;
+}
+div.absolute{
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}

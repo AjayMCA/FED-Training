@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+}
+.black-box{
+    position: relative;
+    background-color: chartreuse;
+    height: 100px;
+    border: 2px solid black;
+    z-index: 100;
+}
+.gray-box{
+    position: absolute;
+    background-color: rgb(123, 157, 146);
+    height: 100px;
+    width: 70%;
+    top: 50px;
+    left: 50px;
+    z-index: 101;
+}
+.green-box{
+    position: absolute;
+    background-color: rgb(115, 11, 179);
+    height: 100px;
+    width: 40%;
+    top: -20px;
+    left: 250px;
+    z-index: -101;
+}
