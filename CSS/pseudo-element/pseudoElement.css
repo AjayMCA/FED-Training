@@ -1,0 +1,25 @@
+/* p::first-line{
+    color: red;
+} */
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+p.intro::first-letter{
+    color: green;
+    font-size:50px;
+}
+h2::before{
+    content: url(ic.jpg);
+}
+h2::after{
+    content: url(ic.png);
+}
+::marker{
+    color: greenyellow;
+    font-size: 23px;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
